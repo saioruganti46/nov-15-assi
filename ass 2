@@ -1,0 +1,6 @@
+def largest( arr, n):
+    maxx=arr[0]
+    for i in range(0,n):
+        if arr[i]>maxx:
+            maxx=arr[i]
+    return maxx  
