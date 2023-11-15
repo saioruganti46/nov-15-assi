@@ -1,0 +1,10 @@
+def missingNumber(self, array: List[int]) -> int:
+
+        n=len(array)
+        osum=0
+        asum=0
+        for i in range(1,n+1):
+            osum=osum+i
+        for i in range(0,n):
+            asum=asum+array[i]            
+        return osum-asum
